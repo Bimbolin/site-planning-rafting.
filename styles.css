@@ -197,6 +197,59 @@ nav {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
 }
+
+
+/* Page2 CSS style */
+
+
+
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.riv-card {
+    margin: 0 auto;
+    grid-column: 2/7;
+    grid-row: 1/5;
+}
+
+.rapid-img {
+    width: 160%;
+    display: grid;
+    height: 100%;
+    padding: 35px;
+}
+.msg1 {
+    background-color: white;
+    width: 130%;
+    padding: 35px;
+    height: 90%;
+}
+.msg2 {
+    background-color: white;
+    width: 140%;
+    height: 100%;
+    display: grid;
+    grid-column: 7/10;
+    grid-row: 1/2;  
+}
+
+.msg3 {
+    background-color: #d2cbd3;
+    width: 150%;
+    display: grid;
+    height: 100%;
+    grid-column: 1/7;
+    grid-row: 5/8; 
+}
+
+    
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -238,7 +291,6 @@ nav {
         margin-top: 25px;
     }
 }
-
 
 
     
